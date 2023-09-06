@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ... (outros estilos) ... */
+main {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Container{
+    max-width: 30%;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: #09C184;
+}
+/* Estilo do container dos campos de entrada e rótulos */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Estilo dos campos de entrada */
+.input-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo dos rótulos */
+.input-container label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+
+
+button {
+    background-color: #09C184 ;
+    padding: 10px ;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3; }
+
+
+/* Redução de largura da página em 60% */
+@media (max-width: 768px) {
+    main {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
