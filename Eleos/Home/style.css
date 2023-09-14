@@ -116,12 +116,12 @@ span {
     color: #09C184;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: underline;
 }
 
 #span {
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #span:hover {
@@ -305,6 +305,11 @@ footer a {
     color: #b8b8b8;
     text-decoration: none;
     margin: 0 10px;
+}
+
+.container>a:hover {
+    color: #ffffff;
+    transition: .5s ease-in-out;
 }
 
 .Logo2 {
