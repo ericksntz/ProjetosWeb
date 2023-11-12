@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/AdicionarCampanhas/style.css">
+    <title>Adicionar Campanhas</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/Home/index.html">Eleos</a>
+        <div class="header-right">
+            <a id="item" href="/Home/index.html">Página Inicial</a>
+            <a class="active" href="/Campanhas/index.html">Campanhas</a>
+            <a id="item" href="/Contato/index.html">Contato</a>
+            <a href="/Login/index.html" class="login">Login</a>
+            <a href="/Cadastro/index.html" class="cadastro">Cadastre-se</a>
+        </div>
+    </header>
+<div class="container">
+<div class="criarCampanha">
+    <form id="campaign-form">
+    <h1>Adicionar Campanhas</h1>
+    <p>Preencha o formulário com as seguintes informações da sua campanha:</p>
+    <hr>
+    <label for="campaign-name">Nome da Campanha</label>
+        <input type="text" id="campaign-name" placeholder="Nome da Campanha" required>
+    <label for="campaign-description">Descrição da Campanha</label>
+        <textarea rows="5" id="campaign-description" required>Descreva o projeto da campanha e seu impacto na comunidade.</textarea>
+    <label for="campaign-goal">Meta de Arrecadações</label>
+        <input type="number" id="campaign-goal" placeholder="Digite a quantidade de arrecadações esperadas" required>
+    <label for="campaign-type">Tipo de Doação</label>
+        <select name="campaign-type" id="campaign-type">
+            <option value="Alimentos">Alimentos</option>
+            <option value="Brinquedos">Brinquedos</option>
+            <option value="Roupas">Roupas</option>
+            <option value="Produtos de Higiene">Produtos de Higiene</option>
+            <option value="Material Escolar">Material Escolar</option>
+            <option value="Remédios">Remédios</option>
+            <option value="Outros">Outros</option>
+        </select>
+    <label for="campaign-category">Categoria da Doação</label>
+        <select name="campaign-category" id="campaign-category">
+            <option value="Saúde">Saúde</option>
+            <option value="Educação">Educação</option>
+            <option value="Assistência Social">Assistência Social</option>
+            <option value="Meio Ambiente">Meio Ambiente</option>
+            <option value="Cultura">Cultura</option>
+            <option value="Outros">Outros</option>
+        </select>
+    <label for="campaign-date">Data de Vencimento ou Publicação?</label>
+        <input type="date" id="campaign-date" required>
+    <button id="campaign-submit">Salvar</button>
+    <input type="hidden" id="campaign-id">
+    <a href="/GerenciarCampanhas/index.html">Visualizar campanhas ativas</a>
+    </form>
+</div>
+</body>
+</html>
