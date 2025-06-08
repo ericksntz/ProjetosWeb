@@ -24,33 +24,34 @@
 
 .nav-menu li a {
     text-decoration: none;
-    color: #5c5c5c;
+    font-size: 18px;
+    color: #333;
     transition: .3s ease;
+    font-weight: 350;
 }
 
 .nav-menu li a:hover {
-    color: #252525;
+    color: #007bff;
 }
 
 .btn-cta {
     background-color: #dddddd;
-    color: #5c5c5c;
+    color: #333;
+    font-weight: 350;
+    font-size: 18px;
     padding: .5rem 1rem;
     text-decoration: none;
-    font-weight: 500;
     transition: .3s ease;
 }
 
 .btn-cta:hover {
-    background-color: #cccccc;
-    color: #252525;
+    background-color: #007bff;
+    color: #fff;
 }
 
 .logo {
-    font-size: 20px;
-    font-weight: 300;
-    color: #5c5c5c;
-
+    width: 250px;
+    color: #333;
 }
 
 .menu-icon {
