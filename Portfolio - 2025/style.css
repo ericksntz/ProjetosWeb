@@ -82,7 +82,7 @@
     max-height: 0;
     opacity: 0;
     transition: max-height 0.4s ease, opacity 0.3s ease;
-    z-index: 999;
+    z-index: 1000;
   }
 
   #menu-toggle:checked ~ nav .nav-menu {
@@ -104,7 +104,6 @@
 
   .menu-icon {
     display: block;
-    z-index: 1000;
   }
 
   nav {
@@ -238,7 +237,7 @@
 }
 
 .sobre {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   background-color: #eeeeee;
   text-align: left;
   display: flex;
